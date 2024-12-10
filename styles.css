@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.sub-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #666;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.sidebar h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 0.5rem;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.faq-section {
+  width: 75%;
+}
+
+.faq-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.faq {
+  margin-bottom: 2rem;
+}
+
+.faq-item {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: black;
+}
+
+.plus {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.faq-answer {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: grey;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+  
